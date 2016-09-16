@@ -66,6 +66,30 @@
     },
     {
       "key": {
+        "uuid": "facab960_59e259a0",
+        "filename": "puppet-designate.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 61
+      },
+      "writtenOn": "2016-09-16T17:46:51Z",
+      "side": 1,
+      "message": "OK, this is is here:\nhttps://github.com/theforeman/puppet-dns",
+      "parentUuid": "facab960_f9da4de8",
+      "range": {
+        "startLine": 17,
+        "startChar": 21,
+        "endLine": 17,
+        "endChar": 34
+      },
+      "revId": "128f9f0c9f90a8569cd48883edd2ee6b2e8dec40",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "facab960_f96c0d39",
         "filename": "puppet-designate.spec",
         "patchSetId": 1
@@ -77,6 +101,30 @@
       "writtenOn": "2016-09-16T17:08:21Z",
       "side": 1,
       "message": "We don\u0027t have a puppet-powerdns package",
+      "range": {
+        "startLine": 20,
+        "startChar": 23,
+        "endLine": 20,
+        "endChar": 39
+      },
+      "revId": "128f9f0c9f90a8569cd48883edd2ee6b2e8dec40",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "facab960_79ee3d8d",
+        "filename": "puppet-designate.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 61
+      },
+      "writtenOn": "2016-09-16T17:46:51Z",
+      "side": 1,
+      "message": "This one is here:\nhttps://github.com/antonlindstrom/puppet-powerdns",
+      "parentUuid": "facab960_f96c0d39",
       "range": {
         "startLine": 20,
         "startChar": 23,
