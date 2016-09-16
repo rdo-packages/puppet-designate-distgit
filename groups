@@ -1,3 +1,5 @@
-# UUID                                  	Group Name
-#
-068771be886579be85ec16f17f6a9280af07251e	puppet/puppet-designate-distgit-ptl
+# UUID          Group Name
+False 	Non-Interactive Users
+c47934a132777f46ffd03706dc646e012bfe3a5e       	puppet/puppet-designate-distgit-core
+068771be886579be85ec16f17f6a9280af07251e        	puppet/puppet-designate-distgit-ptl
+global:Registered-Users		Registered Users
