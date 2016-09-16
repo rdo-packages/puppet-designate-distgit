@@ -42,6 +42,30 @@
     },
     {
       "key": {
+        "uuid": "facab960_f9da4de8",
+        "filename": "puppet-designate.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 61
+      },
+      "writtenOn": "2016-09-16T17:40:45Z",
+      "side": 1,
+      "message": "blearg, I guess then we will have to package these two as well if we really need this, I\u0027ll see where upstream for them is.",
+      "parentUuid": "facab960_d98829ea",
+      "range": {
+        "startLine": 17,
+        "startChar": 21,
+        "endLine": 17,
+        "endChar": 34
+      },
+      "revId": "128f9f0c9f90a8569cd48883edd2ee6b2e8dec40",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "facab960_f96c0d39",
         "filename": "puppet-designate.spec",
         "patchSetId": 1
