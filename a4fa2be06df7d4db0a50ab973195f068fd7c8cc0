@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7adec928_c1c0447f",
+        "filename": "puppet-designate.spec",
+        "patchSetId": 2
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 113
+      },
+      "writtenOn": "2016-10-18T15:55:57Z",
+      "side": 1,
+      "message": "As I expected, this should be openstack-designate-%{upstream_version}.\n\nThe reason for this is that this is the name tarballs from tarballs.o.o use, so both CBS and DLRN can share specs.",
+      "range": {
+        "startLine": 28,
+        "startChar": 13,
+        "endLine": 28,
+        "endChar": 40
+      },
+      "revId": "a4fa2be06df7d4db0a50ab973195f068fd7c8cc0",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    }
+  ]
+}
