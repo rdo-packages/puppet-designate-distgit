@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5adbc538_bdfeff36",
+        "filename": "puppet-designate.spec",
+        "patchSetId": 3
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2016-10-21T08:19:38Z",
+      "side": 1,
+      "message": "this should be upstream_version.",
+      "range": {
+        "startLine": 13,
+        "startChar": 73,
+        "endLine": 13,
+        "endChar": 80
+      },
+      "revId": "334200e3b377ce3fd1dd12ce01e45c14cc17f5b9",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    }
+  ]
+}
