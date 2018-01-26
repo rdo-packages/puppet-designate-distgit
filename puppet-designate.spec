@@ -1,3 +1,5 @@
+# add guard for OSP packages not carried
+%global rhosp 0
 %{!?upstream_version: %global upstream_version %{version}%{?milestone}}
 
 %define upstream_name openstack-designate
@@ -20,8 +22,11 @@ Requires:               puppet-stdlib
 Requires:               puppet-dns
 Requires:               puppet-openstacklib
 Requires:               puppet-oslo
-Requires:               puppet-powerdns
 Requires:               puppet >= 2.7.0
+
+%if 0%{rhosp} == 0
+Requires:               puppet-powerdns
+%endif
 
 %description
 Installs and configures OpenStack Designate (DNS Services).
