@@ -5,7 +5,7 @@
 %define upstream_name openstack-designate
 
 Name:                   puppet-designate
-Version:                9.5.0
+Version:                14.4.0
 Release:                1%{?dist}
 Summary:                Puppet module for OpenStack Designate
 License:                ASL 2.0
@@ -56,6 +56,9 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/designate/
 
 
 %changelog
+* Thu Mar 21 2019 RDO <dev@lists.rdoproject.org> 14.4.0-1
+- Update to 14.4.0
+
 * Thu Feb 02 2017 Alfredo Moralejo <amoralej@redhat.com> 9.5.0-1
 - Update to 9.5.0
 
