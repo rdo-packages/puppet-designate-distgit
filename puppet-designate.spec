@@ -66,4 +66,3 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/designate/
 - Update to 9.5.0
 
 
-
