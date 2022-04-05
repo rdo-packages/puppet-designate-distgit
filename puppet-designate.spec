@@ -1,13 +1,12 @@
 %{!?sources_gpg: %{!?dlrn:%global sources_gpg 1} }
-%global sources_gpg_sign 0x2426b928085a020d8a90d0d879ab7008d0896c8a
+%global sources_gpg_sign 0x01527a34f0d0080f8a5db8d6eb6c5df21b4b6363
 # add guard for OSP packages not carried
-%global rhosp 0
 %{!?upstream_version: %global upstream_version %{version}%{?milestone}}
 
 %define upstream_name openstack-designate
 
 Name:                   puppet-designate
-Version:                9.5.0
+Version:                20.3.0
 Release:                1%{?dist}
 Summary:                Puppet module for OpenStack Designate
 License:                ASL 2.0
@@ -36,10 +35,6 @@ Requires:               puppet-dns
 Requires:               puppet-openstacklib
 Requires:               puppet-oslo
 Requires:               puppet >= 2.7.0
-
-%if 0%{rhosp} == 0
-Requires:               puppet-powerdns
-%endif
 
 %description
 Installs and configures OpenStack Designate (DNS Services).
@@ -73,6 +68,9 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/designate/
 
 
 %changelog
+* Tue Apr 05 2022 RDO <dev@lists.rdoproject.org> 20.3.0-1
+- Update to 20.3.0
+
 * Thu Feb 02 2017 Alfredo Moralejo <amoralej@redhat.com> 9.5.0-1
 - Update to 9.5.0
 
