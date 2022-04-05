@@ -78,3 +78,4 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/designate/
 
 
 
+# REMOVEME: error caused by commit https://opendev.org/openstack/puppet-designate/commit/c90e2d4e5d4d777c223c9fc922aae433ede0d04e
