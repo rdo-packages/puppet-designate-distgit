@@ -37,10 +37,6 @@ Requires:               puppet-openstacklib
 Requires:               puppet-oslo
 Requires:               puppet >= 2.7.0
 
-%if 0%{rhosp} == 0
-Requires:               puppet-powerdns
-%endif
-
 %description
 Installs and configures OpenStack Designate (DNS Services).
 
