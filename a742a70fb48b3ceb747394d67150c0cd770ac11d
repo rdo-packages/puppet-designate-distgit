@@ -22,6 +22,30 @@
       },
       "revId": "a742a70fb48b3ceb747394d67150c0cd770ac11d",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d54e4832_cc65d5ba",
+        "filename": "puppet-designate.spec",
+        "patchSetId": 2
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 757
+      },
+      "writtenOn": "2022-04-06T09:53:32Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c7ea169f_a598a13b",
+      "range": {
+        "startLine": 4,
+        "startChar": 0,
+        "endLine": 4,
+        "endChar": 1
+      },
+      "revId": "a742a70fb48b3ceb747394d67150c0cd770ac11d",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
