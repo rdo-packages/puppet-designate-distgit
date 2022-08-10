@@ -31,6 +31,7 @@ BuildRequires:  openstack-macros
 Requires:               puppet-inifile
 Requires:               puppet-keystone
 Requires:               puppet-stdlib
+Requires:               puppet-concat
 Requires:               puppet-dns
 Requires:               puppet-openstacklib
 Requires:               puppet-oslo
