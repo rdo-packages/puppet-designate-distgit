@@ -1,12 +1,12 @@
 %{!?sources_gpg: %{!?dlrn:%global sources_gpg 1} }
-%global sources_gpg_sign 0x815AFEC729392386480E076DCC0DFE2D21C023C9
+%global sources_gpg_sign 0x2ef3fe0ec2b075ab7458b5f8b702b20b13df2318
 # add guard for OSP packages not carried
 %{!?upstream_version: %global upstream_version %{version}%{?milestone}}
 
 %define upstream_name openstack-designate
 
 Name:                   puppet-designate
-Version:                20.3.1
+Version:                20.3.2
 Release:                1%{?dist}
 Summary:                Puppet module for OpenStack Designate
 License:                ASL 2.0
@@ -68,6 +68,9 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/designate/
 
 
 %changelog
+* Fri Nov 24 2023 RDO <dev@lists.rdoproject.org> 20.3.2-1
+- Update to 20.3.2
+
 * Tue Aug 01 2023 RDO <dev@lists.rdoproject.org> 20.3.1-1
 - Update to 20.3.1
 
